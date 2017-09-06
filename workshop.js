@@ -12,6 +12,10 @@ function letterAtPosition(inputString, position) {
 
 function addTwoNumbers(num1, num2) {
 
+    if(typeof num1 !== "number" || typeof num2 !== "number"){
+        return undefined;
+    }
+    return num1+num2;
 }
 
 function multiplyTwoNumbers(num1, num2) {
