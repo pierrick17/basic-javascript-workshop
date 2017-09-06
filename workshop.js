@@ -1,12 +1,23 @@
 function firstLetter(inputString) {
 
+    if(typeof inputString !=="letter"){
+        return undefined
+    }
+    return (firstLetter(inputString)
 }
 
 function lastLetter(inputString) {
 
+    if(typeof inputString !=="letter"){
+        return undefined
+    }
+    return (lastLetter(inputString)
 }
 
 function letterAtPosition(inputString, position) {
+
+
+    return letterAtPosition(inputString,position)
 
 }
 
