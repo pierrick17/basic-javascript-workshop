@@ -1,23 +1,23 @@
 function firstLetter(inputString) {
 
     if(typeof inputString !=="letter"){
-        return undefined
+        return undefined;
     }
-    return (firstLetter(inputString)
+    return (firstLetter(inputString);
 }
 
 function lastLetter(inputString) {
 
     if(typeof inputString !=="letter"){
-        return undefined
+        return undefined;
     }
-    return (lastLetter(inputString)
+    return (lastLetter(inputString);
 }
 
 function letterAtPosition(inputString, position) {
 
 
-    return letterAtPosition(inputString,position)
+    return letterAtPosition(inputString,position);
 
 }
 
@@ -31,13 +31,32 @@ function addTwoNumbers(num1, num2) {
 
 function multiplyTwoNumbers(num1, num2) {
 
+    if(num1 === "Infinity" || num2 === "Infinity"){
+        return Infinity;
+    }
+    return num1*num2;
 }
 
 function calculator(operation, num1, num2) {
 
+    if(operation === "add"){
+        return num1+num2;
+    }
+    if(operation === "sub"){
+        return num1-num2;
+    }
+    if(operation === "mult"){
+        return num1*num2;
+    }
+    if(operation === "div"){
+        return num1/num2;
+    }
+
+    return undefined;
 }
 
 function repeatString(inputString, numRepetitions) {
+
 
 }
 
